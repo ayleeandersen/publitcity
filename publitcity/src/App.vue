@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GoogleForm form="https://docs.google.com/forms/d/e/1FAIpQLSdmkcNcPzL1m50duJiPadUPHJ6w8ZvD9J-ej-mAwMmLnECP_A/viewform?embedded=true" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GoogleForm from './components/GoogleForm.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GoogleForm
   }
 }
 </script>
